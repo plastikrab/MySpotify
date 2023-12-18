@@ -51,25 +51,25 @@ fun bottomPanel(){
                 .fillMaxWidth()
         ) {
             Image(
-                imageVector = Icons.Default.AccountBox,
+                painter = painterResource(id = R.drawable.home2),
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(horizontal = 30.dp)
-                    .size(40.dp)
+                    .padding(horizontal = 30.dp, vertical = 5.dp)
+                    .size(30.dp)
             )
             Image(
-                imageVector = Icons.Default.AccountBox,
+                painter = painterResource(id = R.drawable.search),
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(horizontal = 30.dp)
-                    .size(40.dp)
+                    .padding(horizontal = 30.dp, vertical = 5.dp)
+                    .size(30.dp)
             )
             Image(
-                imageVector = Icons.Default.AccountBox,
+                painter = painterResource(id = R.drawable.media),
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(horizontal = 30.dp)
-                    .size(40.dp)
+                    .padding(horizontal = 30.dp, vertical = 5.dp)
+                    .size(30.dp)
             )
         }
     }
