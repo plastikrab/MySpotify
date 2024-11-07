@@ -1,1 +1,1 @@
-Abandoned project, maybee somtimes I will end it
+Abandoned project, maybee somtime I will end it
